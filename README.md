@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Управление доступом»#
+# Домашнее задание к занятию «Управление доступом»
 ## Цель задания   
 В тестовой среде Kubernetes нужно предоставить ограниченный доступ пользователю.
 ------
@@ -185,8 +185,5 @@ user@microk8s:~/kuber-homeworks-2.4$ kubectl get ingress -n homework
 Error from server (Forbidden): ingresses.networking.k8s.io is forbidden: User "testuser" cannot list resource "ingresses" in API group "networking.k8s.io" in the namespace "homework"
 ```
 
-2. Настройте конфигурационный файл kubectl для подключения.
-3. Создайте роли и все необходимые настройки для пользователя.
-4. Предусмотрите права пользователя. Пользователь может просматривать логи подов и их конфигурацию (`kubectl logs pod <pod_id>`, `kubectl describe pod <pod_id>`).
-5. Предоставьте манифесты и скриншоты и/или вывод необходимых команд.
+
 ------
